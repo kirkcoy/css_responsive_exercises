@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 10px;
+}
+
+h1 {
+    background-color: #b3b3b3;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ff9;
+}
+
+.description {
+    border: 1px solid #ff9;
+    background-color: #cccccc;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.device {
+    background-color: #ff9;
+    border: 1px solid #b3b3b3;
+    padding: 10px;
+}
+
+.span {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 480px){
+    .sm{
+        display: 100%;
+    }
+
+    .md{
+        display: none;
+    }
+
+    .lg{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1023px){
+    .sm{
+        display: none;
+    }
+
+    .md{
+        width: 100%;
+    }
+
+    .lg{
+        display: none;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .sm{
+        display: none;
+    }
+
+    .md{
+        display: none;
+    }
+
+    .lg{
+        width: 100%;
+    }
+}
